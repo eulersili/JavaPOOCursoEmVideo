@@ -1,4 +1,4 @@
-package aula05a;
+package aula05b;
 
 public class Aula05a {
     public static void main(String[] args) {
@@ -17,7 +17,8 @@ public class Aula05a {
         p2.setDono("Eliane");
         p2.abrirConta("CP");
         p2.depositar(500);
-        p2.sacar(1000);
+        p2.sacar(650);
+        p2.fecharConta();
         p2.estadoActual();
     }
 }

@@ -6,8 +6,8 @@ public class Caneta {
     private String cor;
     private boolean tampada;
 
-    public Caneta(String m, String c, float p){
     // This is a constructor method
+    public Caneta(String m, String c, float p){
         this.modelo = m;
         this.cor = c;
         this.ponta = p;

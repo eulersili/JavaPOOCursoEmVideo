@@ -31,13 +31,11 @@ public class Caneta {
     protected void destampar(){
         this.tampada = false;
     }
-
 }
 
 // "this" é uma referência ao próprio objecto que chamou.
 // Sempre que quiser modificar um atributo de uma classe, coloque
 // à frente da linha que vai mexer o objecto.
-
 
 // Todos os objectos da mesma classe, têm atributos e métodos comuns. O diferente
 // é apenas o status ou valor de atributos.

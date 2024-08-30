@@ -31,5 +31,4 @@ public class Caneta {
         System.out.println("Ponta: " + this.getPonta());
 //        System.out.println("Ponta: " + this.ponta);
     }
-
 }

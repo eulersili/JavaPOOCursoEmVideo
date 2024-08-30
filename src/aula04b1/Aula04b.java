@@ -2,6 +2,7 @@ package aula04b1;
 
 public class Aula04b {
     public static void main(String[] args) {
+
         Caneta c1 = new Caneta();
         c1.setModelo("Bravo");
 //        c1.modelo = "Bravo";
@@ -13,6 +14,5 @@ public class Aula04b {
 
 //        c1.status();
         System.out.printf("Tenho uma %s com ponta %.1f", c1.getModelo(), c1.getPonta());
-
     }
 }

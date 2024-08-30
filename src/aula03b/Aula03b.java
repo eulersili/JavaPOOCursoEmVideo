@@ -12,8 +12,5 @@ public class Aula03b {
         c1.status();
         c1.tampar();
         c1.rabiscar();
-
-        // 04:00
-
     }
 }

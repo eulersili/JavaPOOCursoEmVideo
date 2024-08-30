@@ -1,5 +1,4 @@
-package aula05a;
-
+package aula05b;
 public class ContaBanco {
 
     // Atributos
@@ -14,12 +13,12 @@ public class ContaBanco {
         this.setTipo(t);
         this.setStatus(true);
         if (t.equals("CC")) {
-        // if (t == "CC")
+            // if (t == "CC")
             this.setSaldo(50);
             System.out.println("Conta aberta com sucesso!");
         }
         else if (t.equals("CP")) {
-        // else if (t == "CP")
+            // else if (t == "CP")
             this.setSaldo(150);
             System.out.println("Conta aberta com sucesso!");
         }
@@ -43,12 +42,12 @@ public class ContaBanco {
 
     public void depositar(float v) {
         if (this.getStatus()) {
-        // if (this.getEstado() == true)
+            // if (this.getEstado() == true)
             this.setSaldo(this.getSaldo() + v);
             System.out.println("Depósito realizado na conta de " + this.getDono());
         }
         else {
-        // else - this.getEstado() == false
+            // else - this.getEstado() == false
             System.out.println("Impossível depositar!");
         }
     }
@@ -71,11 +70,11 @@ public class ContaBanco {
     public void pagarMensal() {
         int v = 0;
         if (this.getTipo() == "CC") {
-        // if (this.getTipo() == "CC")
+            // if (this.getTipo() == "CC")
             v = 12;
         }
         else if (this.getTipo() == "CP") {
-        // else if (this.getTipo() == "CP")
+            // else if (this.getTipo() == "CP")
             v = 20;
         }
         if (this.getStatus()) {
@@ -146,5 +145,3 @@ public class ContaBanco {
         System.out.println("Status: " + this.getStatus());
     }
 }
-
-// 18:10

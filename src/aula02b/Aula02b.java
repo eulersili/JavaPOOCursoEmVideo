@@ -24,6 +24,5 @@ public class Aula02b {
 //        c2.status();
         c2.tampar();
         c2.rabiscar();
-
     }
 }
