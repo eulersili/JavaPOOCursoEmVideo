@@ -1,4 +1,4 @@
-package aula6b;
+package aula06b;
 
 // Essa é a nossa classe
 public class ControleRemote implements Controlador{

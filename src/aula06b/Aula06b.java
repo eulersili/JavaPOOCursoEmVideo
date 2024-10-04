@@ -1,4 +1,4 @@
-package aula6b;
+package aula06b;
 
 // Essa é o nosso Objecto
 public class Aula06b {

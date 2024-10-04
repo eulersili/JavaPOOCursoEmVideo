@@ -155,4 +155,3 @@ public class Lutador {
         this.empates = empates;
     }
 }
-// 18:00

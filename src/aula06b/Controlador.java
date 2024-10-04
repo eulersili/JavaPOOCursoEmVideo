@@ -1,4 +1,4 @@
-package aula6b;
+package aula06b;
 
 public interface Controlador {
     public abstract void ligar();
