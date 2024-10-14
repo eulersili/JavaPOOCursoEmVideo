@@ -30,6 +30,7 @@ public class Video implements AccoesVideo {
     @Override
     public void play() {
         this.setReproduzindo(true);
+        this.setViews(getViews() + 1);
         System.out.println("---- Vídeo tocando;-) ----");
     }
 
